@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
+
+#components-layout-demo-top-side-2 .logo {
+  width: 120px;
+  height: 25px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px 28px 16px 0;
+  float: left;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.site-layout-background {
+  background: #E9F1FC;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header {
+  background-color: #6d9eeb !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.ant-menu.ant-menu-dark,
+.ant-menu.ant-menu-dark .ant-menu-sub {
+  background-color: #6d9eeb !important;
 }
 
-.App-link {
-  color: #61dafb;
+.ant-menu.ant-menu-dark .ant-menu-item-selected,
+.ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected {
+  background-color: #ffffff;
+  color: #6d9eeb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ant-menu-dark .ant-menu-item,
+.ant-menu-dark .ant-menu-item-group-title,
+.ant-menu-dark .ant-menu-item > a,
+.ant-menu-dark .ant-menu-item > span > a {
+  color: rgba(255, 255, 255, 1);
+}
+
+.ant-layout-header {
+  height: 45px;
+  line-height: 45px;
+}
+
+.ant-layout {
+  background: #E9F1FC;
+}
+
+.login{
+  background: #ffffff;
+  width: 120px;
+  height: 25px;
 }
