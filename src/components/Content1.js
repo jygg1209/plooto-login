@@ -1,6 +1,6 @@
 import React from 'react';
 import { Layout } from "antd";
-import Login from "./Login";
+import AuthForm from "./Auth/AuthForm";
 
 const { Content } = Layout;
 const Content1 = () => {
@@ -15,7 +15,7 @@ const Content1 = () => {
                 minHeight: 280,
               }}
             >
-              <Login className="login"/>
+              <AuthForm className="login"/>
             </Content>
           </Layout>
         </Layout>
